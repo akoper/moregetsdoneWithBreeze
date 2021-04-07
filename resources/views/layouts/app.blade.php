@@ -16,12 +16,12 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="p-6 sm:p-12 font-sans antialiased">
+    <body class="p-6 sm:px-12 font-sans antialiased">
 
         <header>
             <div class="flex flex-col sm:flex-row">
                 <div class="text-center sm:text-left text-4xl font-bold text-gray-900 py-3 sm:w-1/2">
-                    moregetsdone
+                    <a href="/">moregetsdone</a>
                 </div>
                 <div class="text-center sm:text-right text-gray-900 py-3 sm:w-1/2">
                     @auth
