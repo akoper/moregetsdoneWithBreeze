@@ -16,7 +16,7 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body class="p-6 sm:px-12 font-sans antialiased">
+    <body class="flex flex-col h-screen p-6 sm:px-12 font-sans antialiased">
 
         <header>
             <div class="flex flex-col sm:flex-row">
@@ -41,12 +41,12 @@
 {{--            @include('layouts.navigation')--}}
 
         <!-- Page Content -->
-        <main>
+        <main class="flex-grow">
             {{ $slot }}
         </main>
 {{--        </div>--}}
         <footer>
-            <div class="flex justify-center text-grey-100 text-sm py-6">&copy; 2021 moregetsdone.com</div>
+            <div class="flex justify-center text-grey-100 text-sm pt-6">&copy; 2021 moregetsdone.com</div>
         </footer>
     </body>
 </html>
